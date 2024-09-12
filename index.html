@@ -1,14 +1,11 @@
 <html>
 <head>
-<title>ダウンロードS</title>
+<title>パスワード入力</title>
 </head>
-<body>
-<a href="hamasaki.zip" download>ダウンロードsuper</a>
-</body>
-<input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
+<input type="button" value="パスワードを入力" onclick="gate();">
 <script type="text/javascript">
    function gate() {
-      var UserInput = prompt("パスワードを入力して下さい:","");
+      var UserInput = prompt("パスワード:","");
       location.href = UserInput + ".html";
    }
 </script>
